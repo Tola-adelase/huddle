@@ -65,8 +65,9 @@ body{
     margin-left: 32px;
     background-color: rgb(241, 89, 208);
    }
-   
 
+   
+   /* Grow Together */
    #conty{
        margin-top: 100px;
        min-height: 420px;
@@ -95,35 +96,80 @@ body{
    .tog p1{
        color: rgb(163, 162, 162);
    }
+   /* End */
 
+
+
+   /* Flowing Conversation */
    #flow{
     margin-top: 100px;
     min-height: 420px;
     background-color: white;
     border: 3px solid rgb(230, 228, 228);
     border-radius: 12px;
-    
 }
-
-.thread {
+   .thread{
     float: left;
-    width: 500px;
+    width: 400px;
     max-width: 100%; 
-    padding-top: 70px;
-    padding-left: 80px;
+    padding-top: 50px;
+    padding-right: 20px;
    }
+   
 
-   .nat{
-  float: right;
-  padding-top: 150px;
-  padding-right: 10px;
-}
-
+   
+   
 h3{
-    font-size: 20px;
     font-weight: bold;
+    font-size: 2rem;
 }
 
 .nat p2{
     color: rgb(163, 162, 162);
+}
+/* End */
+
+
+
+/* Your User */
+#users{
+    margin-top: 100px;
+    min-height: 420px;
+    background-color: white;
+    border: 3px solid rgb(230, 228, 228);
+    border-radius: 12px;
+}
+
+.yours {
+ float: right;
+ width: 400px;
+ max-width: 100%; 
+ padding-top: 50px;
+ padding-right: 10px;
+}
+
+.sol{
+    padding-top: 150px;
+    padding-left: 80px;
+}
+
+h4{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.sol p3{
+    color: rgb(163, 162, 162);
+}
+
+/* End */
+
+
+/* Footer */
+
+
+footer{
+    min-height: 450px;
+    background-color: rgb(2, 63, 63);
+    margin-top: 250px;
 }
