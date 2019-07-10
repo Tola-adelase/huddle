@@ -6,7 +6,9 @@ body{
     background-color: white;
 }
 
-#huddle{
+/* Head */
+
+.huddle{
     min-height:660px;
     background:url('../images/bg-hero-desktop.svg');
     background-size: cover;
@@ -14,12 +16,12 @@ body{
     background-color: #edfbfe;
 }
 
-.logo{
+.huddle-logo{
     margin-left: 29px;
     margin-top: 15px;
 }
 
-.cage{
+.free-btn{
    border-radius: 20px;
    padding: 5px 45px;
    float: right;
@@ -31,7 +33,7 @@ body{
    background-color: rgb(253, 251, 251);
 }
   
-.mockup {
+.build-community {
     float: right;
     width: 670px;
     max-width: 100%;
@@ -55,7 +57,7 @@ body{
     font-weight: 300;
    }
 
-   .but{
+   .build-btn{
     padding-top: 10px;
     font-weight: bold;
     font-size: 11px;
@@ -66,9 +68,10 @@ body{
     background-color: rgb(241, 89, 208);
    }
 
+   /* End */
    
    /* Grow Together */
-   #conty{
+   .grow-together{
        margin-top: 120px;
        min-height: 420px;
        background-color: white;
@@ -87,16 +90,16 @@ body{
     padding-right: 10px;
    }
 
-   .tog{
+   .together{
        padding-top: 150px;
-       padding-left: 80px;
+       padding-left: 70px;
    }
 
    h2{
        font-weight: bold;
    }
 
-   .tog p1{
+   .together p1{
        color: rgb(163, 162, 162);
    }
    /* End */
@@ -104,7 +107,7 @@ body{
 
 
    /* Flowing Conversation */
-   #flow{
+   .flow-conversation{
     margin-top: 30px;
     min-height: 420px;
     background-color: white;
@@ -115,21 +118,21 @@ body{
   box-shadow: 1px 1px 11px 3px rgba(227, 227, 227, 0.68);
 }
 
-   .thread {
+   .flow {
     float: left;
     width: 400px;
-    max-width: auto; 
-    padding-top: 50px;
-    padding-right: 40px;
+    margin-top: 40px;
+    margin-left: 50px;
+
    }
 
-   .nat{
-      text-align: right;
-       padding-top: 150px;
-       padding-right: 80px;
-   }
+   .conversation{
+       width: 100%;
+       text-align:center;
+       padding-top: 100px;
+       padding-right: 40px;
 
-   
+   }
    
 h3{
     margin-left: 20px;
@@ -138,7 +141,7 @@ h3{
     font-size: 2rem;
 }
 
-.nat p2{
+.conversation p2{
     color: rgb(163, 162, 162);
 }
 /* End */
@@ -146,7 +149,7 @@ h3{
 
 
 /* Your User */
-#users{
+.your-users{
     margin-top: 30px;
     min-height: 420px;
     background-color: white;
@@ -157,7 +160,7 @@ h3{
   box-shadow: 1px 1px 11px 3px rgba(227, 227, 227, 0.68);
 }
 
-.yours {
+.your {
  float: right;
  width: 400px;
  max-width: 100%; 
@@ -165,9 +168,9 @@ h3{
  padding-right: 10px;
 }
 
-.sol{
+.user{
     padding-top: 150px;
-    padding-left: 80px;
+    padding-left: 70px;
 }
 
 h4{
@@ -175,13 +178,12 @@ h4{
     font-size: 2rem;
 }
 
-.sol p3{
+.user p3{
     color: rgb(163, 162, 162);
 }
 
 
-#sticky{
-    
+.ready{
     max-width: 500px;
     border: 1px solid  rgba(227, 227, 227, 0.68);
     height: 200px; 
@@ -200,24 +202,26 @@ font-weight: bold;
 font-size: 23px;
 }
 
-.cardd{
-margin-top: 50px;
-text-align: center;
+/* End */
 
+/* Ready to Build */
+.ready-to{
+    margin-top: 50px;
+    text-align: center;
 }
 
-
-#card{
+.ready-btn{
     padding-top: 10px;
     font-weight: bold;
     font-size: 11px;
     color: rgb(209, 207, 207);
     border-radius: 20px;
     padding: 9px 47px;
-    margin-left: 32px;
+    margin-left: 20px;
     background-color: rgb(241, 89, 208);
    }
-/* End */
+
+   /* End */
 
 
 /* Footer */
@@ -233,7 +237,8 @@ footer{
 .fot{
     color: white;
 }
-#fot1{
+
+.fot1{
     margin-top: 90px;
     color: white;
 }
@@ -252,77 +257,23 @@ footer a:hover{
     text-decoration: none;
 }
 
-.cat1{
+.column1{
+ margin-top: 170px;
+}
+
+.column2{
     margin-top: 170px;
 }
 
-.cat2{
-    margin-top: 170px;
-}
-
-#cat3{
+.column3{
     margin-top: 200px;
 }
 
 
-#fot3{
+.fot3{
     font-size: 14px;
     margin-top: 150px;
     color: white;
 }
 
-@media (max-width:550px) {
-	header {
-        padding: 5px 3px;
-    }
-
-    .logo img{
-        width: 100px;
-    }
-    .cage {
-        padding: 1px 12px;
-        border-radius: 10px;
-        font-weight: 700px;
-        font-size: 10px;
-    }
-
-    .mockup {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-top: 5px;
-      }
-
-      h1{
-          font-size: 30px;
-      }
-
-      p{
-          line-height: 110%;
-      }
-
-      .img-fluid{
-        width: 90%;
-        padding: 6px 0 4px 0;
-        margin: 0;
-        text-align: center;
-      }
-
-      .but{
-        padding: 1px 12px;
-        border-radius: 10px;
-        font-weight: 700px;
-        font-size: 10px;
-      }
-
-      .conty{
-        flex-direction: column;
-        padding: 2rem;
-      }
-
-      .grow{
-        flex-direction: column;
-        width: 50%; 
-      }
-
-    }
+/* End */

@@ -1,0 +1,149 @@
+/* Smaller Screen */
+
+@media (max-width:550px) {
+	header {
+        padding: 5px 3px;
+    }
+
+    .huddle-logo {
+        width: 100px;
+    }
+
+ .huddlee{
+padding: 0 0;
+}
+
+    .free-btn{
+        padding: 3px 13px;
+        border-radius: 10px;
+        font-weight: 700px;
+        font-size: 10px;
+    }
+
+    .build-community {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      h1{
+          font-size: 20px;
+          color: brown;
+          padding: 0 0 3px 0;
+          text-align: center;
+          margin-top: 30px;
+          padding-top: 30px;
+          
+      }
+
+      p{
+          font-size: 15px;
+          line-height: 120%;
+          width: 100%;
+          padding: 0 0 2px 0;
+          text-align: center;
+          margin-left: 5px;
+      }
+
+      .img-fluid{
+        width: 90%;
+        padding: 6px 0 4px 0;
+        margin: 0;
+        text-align: center;
+      }
+
+      .build-btn{
+        padding: 1px 12px;
+        border-radius: 10px;
+        font-weight: 700px;
+        font-size: 10px;
+        background-color: rgb(150, 2, 88);
+        float: right;
+        margin-right: 150px;
+      }
+     
+      .grow-together{
+        padding: 5px;
+      }
+      
+      .together{
+          width: 100%;
+          text-align: left;
+          margin-bottom: 20px;
+          font-size: 14px;
+      }
+
+      .grow {
+      width: 80%;
+     margin-bottom: 35px;
+      }
+
+      .together h2 {
+     font-size: 20px;
+     color: rgb(175, 20, 20);
+      }
+
+
+      .flow-conversation{
+        padding: 10px;
+      }
+      
+      .conversation{
+          width: 100%;
+          text-align: center;
+          font-size: 14px;
+          margin-bottom: 20px;
+          padding-left: 20px;
+      }
+
+      .flow {
+  width: 80%;
+  margin-bottom: 35px;
+      }
+
+      .conversation h3 {
+     font-size: 20px;
+     color: rgb(175, 20, 20);
+      }
+    
+      .your-users{
+        padding: 10px;
+      }
+      
+      .user{
+          width: 100%;
+          text-align: right;
+          margin-bottom: 20px;
+          font-size: 14px;
+
+      }
+
+      .your{
+  width: 80%;
+  margin-bottom: 35px;
+      }
+
+      .user h4 {
+     font-size: 20px;
+     color: rgb(175, 20, 20);
+      }
+
+      .ready{
+padding: 6px;
+border-radius: 10px;
+width: 90%;
+text-align: center;
+      }
+
+      .ready-to h5{
+          font-size: 16px;
+          color: brown;
+      }
+
+ 
+
+      footer .column1 , .column2, .column3{
+          margin-top: 2px;
+      }
+
+    }
