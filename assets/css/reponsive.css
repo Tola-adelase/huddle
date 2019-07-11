@@ -1,3 +1,146 @@
+
+/* Media Queries */
+
+
+    @media (max-width:850px) {
+        header {
+            padding: 10px 6px;
+        }
+
+        .huddle-logo {
+            width: 150px;
+        }
+
+        .huddlee{
+            padding: 0 0;
+            }
+
+            .free-btn{
+                padding: 6px 16px;
+                border-radius: 12px;
+                font-weight: 800px;
+                font-size: 15px;
+                background-color: bisque;
+            
+            }
+
+              .img-fluid{
+                width: 80%;
+                margin-top: 4px;
+                padding: 6px 0 4px 0;
+              }
+
+              .build-community {
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+              }
+        
+
+               h1{
+                font-size: 30px;
+                color: purple;
+                padding: 0 0 0 0;
+                margin-top: 5px;
+                padding-top: 30px;    
+      }
+
+      p{
+        font-size: 17px;
+        line-height: 100%;
+        padding: 0 0 1px 0;
+    }
+
+    .build-btn{
+        padding: 1px 12px;
+        border-radius: 10px;
+      margin-bottom: 20px;
+      font-weight: 700px;
+        font-size: 15px;
+        background-color:rgb(196, 4, 116);
+      }
+
+      .grow-together{
+        padding: 5px;
+      }
+
+      .together{
+        width: 100%;
+        margin-bottom: 20px;
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .together h2 {
+        font-size: 25px;
+        color: rgb(175, 20, 20);
+         }
+         
+    .grow {
+        width: 40%;
+        }
+
+        
+      .flow-conversation{
+        padding: 10px;
+      }
+
+      .conversation{
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+        margin-bottom: 20px;
+        padding-left: 20px;
+    }
+
+  .flow {
+  width: 40%;
+  margin-bottom: 35px;
+      }
+      
+      .conversation h3 {
+        font-size: 25px;
+        color: rgb(175, 20, 20);
+         }
+
+         .your-users{
+            padding: 10px;
+          }
+
+          .user{
+            width: 100%;
+            text-align: left;
+            margin-bottom: 20px;
+            font-size: 15px;
+  
+        }
+
+        .your{
+            width: 40%;
+            margin-bottom: 35px;
+                }
+
+                .user h4 {
+                    font-size: 20px;
+                    color: rgb(175, 20, 20);
+                     }
+
+                     .ready{
+                        padding: 6px;
+                        border-radius: 10px;
+                        width: 90%;
+                        text-align: center;
+                              }
+                              
+      .ready-to h5{
+        font-size: 20px;
+        color: brown;
+    }
+                     
+    }
+
+    /* End */
+
 /* Smaller Screen */
 
 @media (max-width:550px) {
@@ -16,8 +159,9 @@ padding: 0 0;
     .free-btn{
         padding: 3px 13px;
         border-radius: 10px;
-        font-weight: 700px;
-        font-size: 10px;
+        font-weight: 600px;
+        font-size: 13px;
+        background-color: beige;
     }
 
     .build-community {
@@ -39,7 +183,6 @@ padding: 0 0;
       p{
           font-size: 15px;
           line-height: 120%;
-          width: 100%;
           padding: 0 0 2px 0;
           text-align: center;
           margin-left: 5px;
@@ -47,9 +190,9 @@ padding: 0 0;
 
       .img-fluid{
         width: 90%;
-        padding: 6px 0 4px 0;
         margin: 0;
-        text-align: center;
+        padding: 6px 0 4px 0;
+       margin-top: 4px;
       }
 
       .build-btn{
@@ -142,8 +285,20 @@ text-align: center;
 
  
 
-      footer .column1 , .column2, .column3{
-          margin-top: 2px;
+      footer  .column3{
+          margin-top: 13px;
       }
 
+      .column1{
+          margin-top: 13px;
+      }
+
+      .column2{
+        margin-top: 13px;
     }
+
+      .media{
+        padding-left: 200px;
+    }
+}
+

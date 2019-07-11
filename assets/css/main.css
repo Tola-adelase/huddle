@@ -6,7 +6,12 @@ body{
     background-color: white;
 }
 
-/* Head */
+.container-fluid{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+/* Huddle */
 
 .huddle{
     min-height:660px;
@@ -272,8 +277,14 @@ footer a:hover{
 
 .fot3{
     font-size: 14px;
-    margin-top: 150px;
+    margin-top: 50px;
     color: white;
 }
+
+.media{
+    display: inline-block;
+   padding: 9px;
+}
+
 
 /* End */
