@@ -144,8 +144,8 @@
 /* Smaller Screen */
 
 @media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px) 
   and (-webkit-min-device-pixel-ratio: 3){
 	header {
         padding: 5px 3px;
@@ -289,15 +289,15 @@ text-align: center;
  
 
       footer  .column3{
-          margin-top: 13px;
+          margin-top: 10px;
       }
 
       .column1{
-          margin-top: 13px;
+          margin-top: 10px;
       }
 
       .column2{
-        margin-top: 13px;
+        margin-top: 10px;
     }
 
       .media{
