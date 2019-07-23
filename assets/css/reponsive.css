@@ -143,7 +143,10 @@
 
 /* Smaller Screen */
 
-@media (max-width:550px) {
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3){
 	header {
         padding: 5px 3px;
     }
